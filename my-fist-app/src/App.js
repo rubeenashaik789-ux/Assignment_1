@@ -7,6 +7,7 @@ import {
   useNavigate,
   useLocation
 } from "react-router-dom";
+import './App.css';
 import { useState } from "react";
 
 function FormPage() {

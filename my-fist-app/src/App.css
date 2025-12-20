@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+/* Form container */
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Highlight errors */
+.input-error {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+/* Submit button */
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Disabled button */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+}
